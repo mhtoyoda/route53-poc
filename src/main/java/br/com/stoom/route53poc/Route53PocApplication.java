@@ -1,4 +1,4 @@
-package com.toyoda.route53poc;
+package br.com.stoom.route53poc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

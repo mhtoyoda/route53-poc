@@ -1,13 +1,13 @@
-package com.toyoda.route53poc.service;
+package br.com.stoom.route53poc.service;
 
+import br.com.stoom.route53poc.exception.DomainAlreadyExisException;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.route53.AmazonRoute53;
 import com.amazonaws.services.route53.AmazonRoute53ClientBuilder;
 import com.amazonaws.services.route53.model.*;
-import com.toyoda.route53poc.config.Route53Config;
-import com.toyoda.route53poc.exception.DomainAlreadyExisException;
+import br.com.stoom.route53poc.config.Route53Config;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.toyoda.route53poc.exception;
+package br.com.stoom.route53poc.exception;
 
 public class DomainAlreadyExisException extends Exception {
 

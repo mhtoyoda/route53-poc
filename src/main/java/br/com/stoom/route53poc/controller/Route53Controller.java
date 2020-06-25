@@ -1,7 +1,7 @@
-package com.toyoda.route53poc.controller;
+package br.com.stoom.route53poc.controller;
 
-import com.toyoda.route53poc.exception.DomainAlreadyExisException;
-import com.toyoda.route53poc.service.Route53Service;
+import br.com.stoom.route53poc.exception.DomainAlreadyExisException;
+import br.com.stoom.route53poc.service.Route53Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.toyoda.route53poc.config;
+package br.com.stoom.route53poc.config;
 
 import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;
